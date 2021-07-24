@@ -1,0 +1,39 @@
+.fixed {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: fixed;
+  color: white;
+  margin-left: 2%;
+  user-select: none;
+}
+
+.fixed2 {
+  top: 9rem;
+  right: 9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+}
+
+div.fixed2 > h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: yellowgreen;
+  font-size: 7em;
+  margin: 0 0 0.3em;
+  user-select: none;
+}
+
+div.fixed2 > button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1em 2em;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  font-size: 2em;
+  user-select: none;
+}
